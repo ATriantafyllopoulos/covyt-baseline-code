@@ -1,0 +1,4 @@
+audformat==0.12.2
+audmetric==1.1.0
+scikit-learn==1.0.1
+seaborn==0.11.2
