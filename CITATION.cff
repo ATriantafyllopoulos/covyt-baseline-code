@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Triantafyllopoulos
+    given-names: Andreas
+  - family-names: Semertzidou
+    given-names: Anastasia
+  - family-names: Meishu
+    given-names: Song
+  - family-names: Pokorny
+    given-names: Florian
+  - family-names: Schuller
+    given-names: Björn
+title: "COVYT Baseline Code"
+date-released: 2022-09-01
