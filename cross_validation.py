@@ -231,9 +231,9 @@ if __name__ == '__main__':
     if args.normalization == 'standard':
         pass  # done on the fly in each fold
     elif args.normalization == 'speaker':
-        features = speaker_normalization(features, df)
+        features = speaker_normalization(features, db['covid'].df)
     elif args.normalization == 'speaker-negative':
-        features = speaker_negative_normalization(features, df)
+        features = speaker_negative_normalization(features, db['covid'].df)
     
     root = audeer.mkdir(args.results)
 
