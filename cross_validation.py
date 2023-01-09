@@ -201,7 +201,7 @@ if __name__ == '__main__':
     )
     parser.add_argument(
         '--partitioning',
-        default='language',
+        default='language.disjoint',
         choices=[
             'language.disjoint',
             'speaker.disjoint',
